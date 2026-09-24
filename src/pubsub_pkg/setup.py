@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-		'talker_node = pubsub_pkg.talker:main'
+		'talker_node = pubsub_pkg.talker:main',
+		'listener_node = pubsub_pkg.listener:main'
         ],
     },
 )
