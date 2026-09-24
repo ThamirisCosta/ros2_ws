@@ -1,0 +1,2 @@
+[console_scripts]
+talker_node = pubsub_pkg.talker:main

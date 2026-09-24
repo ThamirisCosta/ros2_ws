@@ -1,0 +1,16 @@
+# Build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

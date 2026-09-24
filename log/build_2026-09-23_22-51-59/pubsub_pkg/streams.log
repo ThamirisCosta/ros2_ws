@@ -1,0 +1,37 @@
+[1.157s] Invoking command in '/ros2_ws/src/pubsub_pkg': PYTHONPATH=/ros2_ws/build/pubsub_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/pubsub_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_pkg build --build-base /ros2_ws/build/pubsub_pkg/build install --record /ros2_ws/build/pubsub_pkg/install.log --install-scripts $base/lib/pubsub_pkg --single-version-externally-managed install_data
+[1.435s] running egg_info
+[1.436s] creating ../../build/pubsub_pkg/pubsub_pkg.egg-info
+[1.451s] writing ../../build/pubsub_pkg/pubsub_pkg.egg-info/PKG-INFO
+[1.452s] writing dependency_links to ../../build/pubsub_pkg/pubsub_pkg.egg-info/dependency_links.txt
+[1.452s] writing entry points to ../../build/pubsub_pkg/pubsub_pkg.egg-info/entry_points.txt
+[1.452s] writing requirements to ../../build/pubsub_pkg/pubsub_pkg.egg-info/requires.txt
+[1.452s] writing top-level names to ../../build/pubsub_pkg/pubsub_pkg.egg-info/top_level.txt
+[1.452s] writing manifest file '../../build/pubsub_pkg/pubsub_pkg.egg-info/SOURCES.txt'
+[1.484s] reading manifest file '../../build/pubsub_pkg/pubsub_pkg.egg-info/SOURCES.txt'
+[1.485s] writing manifest file '../../build/pubsub_pkg/pubsub_pkg.egg-info/SOURCES.txt'
+[1.485s] running build
+[1.485s] running build_py
+[1.486s] creating /ros2_ws/build/pubsub_pkg/build
+[1.486s] creating /ros2_ws/build/pubsub_pkg/build/lib
+[1.486s] creating /ros2_ws/build/pubsub_pkg/build/lib/pubsub_pkg
+[1.486s] copying pubsub_pkg/talker.py -> /ros2_ws/build/pubsub_pkg/build/lib/pubsub_pkg
+[1.486s] copying pubsub_pkg/__init__.py -> /ros2_ws/build/pubsub_pkg/build/lib/pubsub_pkg
+[1.486s] running install
+[1.493s] running install_lib
+[1.509s] creating /ros2_ws/install/pubsub_pkg/lib/python3.12/site-packages/pubsub_pkg
+[1.509s] copying /ros2_ws/build/pubsub_pkg/build/lib/pubsub_pkg/talker.py -> /ros2_ws/install/pubsub_pkg/lib/python3.12/site-packages/pubsub_pkg
+[1.509s] copying /ros2_ws/build/pubsub_pkg/build/lib/pubsub_pkg/__init__.py -> /ros2_ws/install/pubsub_pkg/lib/python3.12/site-packages/pubsub_pkg
+[1.510s] byte-compiling /ros2_ws/install/pubsub_pkg/lib/python3.12/site-packages/pubsub_pkg/talker.py to talker.cpython-312.pyc
+[1.511s] byte-compiling /ros2_ws/install/pubsub_pkg/lib/python3.12/site-packages/pubsub_pkg/__init__.py to __init__.cpython-312.pyc
+[1.511s] running install_data
+[1.511s] creating /ros2_ws/install/pubsub_pkg/share/ament_index
+[1.511s] creating /ros2_ws/install/pubsub_pkg/share/ament_index/resource_index
+[1.511s] creating /ros2_ws/install/pubsub_pkg/share/ament_index/resource_index/packages
+[1.512s] copying resource/pubsub_pkg -> /ros2_ws/install/pubsub_pkg/share/ament_index/resource_index/packages
+[1.512s] copying package.xml -> /ros2_ws/install/pubsub_pkg/share/pubsub_pkg
+[1.512s] running install_egg_info
+[1.530s] Copying ../../build/pubsub_pkg/pubsub_pkg.egg-info to /ros2_ws/install/pubsub_pkg/lib/python3.12/site-packages/pubsub_pkg-0.0.0-py3.12.egg-info
+[1.530s] running install_scripts
+[1.653s] Installing talker_node script to /ros2_ws/install/pubsub_pkg/lib/pubsub_pkg
+[1.653s] writing list of installed files to '/ros2_ws/build/pubsub_pkg/install.log'
+[1.687s] Invoked command in '/ros2_ws/src/pubsub_pkg' returned '0': PYTHONPATH=/ros2_ws/build/pubsub_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/pubsub_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_pkg build --build-base /ros2_ws/build/pubsub_pkg/build install --record /ros2_ws/build/pubsub_pkg/install.log --install-scripts $base/lib/pubsub_pkg --single-version-externally-managed install_data
